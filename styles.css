@@ -9,10 +9,14 @@ body {
     flex-direction: column;
 }
 
+header {
+    position: relative;
+}
+
 header::before {
     content: "";
     display: block;
-    background-color: skyblue;
+    background-color: #0891b2;
     min-height: 75vh;
     transform: skewY(-10deg) translateY(-25vh);
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
@@ -35,6 +39,7 @@ header>div {
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
     padding: 10px;
     padding-bottom: 20px;
+    padding-right: 30px;
     max-width: 500px;
 }
 
@@ -49,9 +54,14 @@ header>div {
     width: 25px;
 }
 
+.large-icon {
+    height: 35px;
+    width: 35px;
+}
+
 main {
     padding: 0px 50px;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
 }
 
 .project-cards-container {
@@ -79,6 +89,35 @@ main {
 }
 
 .project-actions {
+    display: flex;
+    gap: 1rem;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 40px 50px;
+    background-color: #0891b2;
+    color: #fff;
+}
+
+.contact-link {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+address {
+    font-style: normal;
+}
+
+.footer-links {
+    padding-top: 20px;
     display: flex;
     gap: 1rem;
 }
