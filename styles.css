@@ -4,4 +4,47 @@
 
 body {
     margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header::before {
+    content: "";
+    display: block;
+    background-color: skyblue;
+    min-height: 75vh;
+    transform: skewY(-10deg) translateY(-25vh);
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+header>div>div {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 6%;
+}
+
+header>div {
+    display: flex;
+    justify-content: center;
+}
+
+.about-me {
+    background-color: #fff;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    padding-bottom: 20px;
+    max-width: 500px;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.icon {
+    height: 25px;
+    width: 25px;
 }
