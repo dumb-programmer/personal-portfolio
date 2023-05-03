@@ -48,3 +48,37 @@ header>div {
     height: 25px;
     width: 25px;
 }
+
+main {
+    padding: 0px 50px;
+    padding-bottom: 50px;
+}
+
+.project-cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 3rem;
+}
+
+.project-card {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 3px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+.project-description {
+    padding: 0px 20px;
+    padding-bottom: 30px;
+}
+
+.project-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-actions {
+    display: flex;
+    gap: 1rem;
+}
