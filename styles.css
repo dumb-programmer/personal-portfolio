@@ -14,6 +14,9 @@ header {
 }
 
 header::before {
+    position: absolute;
+    min-width: 100%;
+    z-index: -1;
     content: "";
     display: block;
     background-color: #0891b2;
@@ -22,14 +25,13 @@ header::before {
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
 }
 
-header>div>div {
+.info-container {
     display: flex;
     align-items: center;
-    position: absolute;
-    top: 6%;
 }
 
-header>div {
+.flex-container {
+    margin-top: 45px;
     display: flex;
     justify-content: center;
 }
@@ -60,8 +62,7 @@ header>div {
 }
 
 main {
-    padding: 0px 50px;
-    padding-bottom: 80px;
+    padding: 80px 50px;
 }
 
 .project-cards-container {
@@ -95,6 +96,7 @@ main {
 
 footer {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 1rem;
@@ -120,4 +122,27 @@ address {
     padding-top: 20px;
     display: flex;
     gap: 1rem;
+}
+
+@media (max-width: 480px) {
+    .info-container {
+        flex-direction: column;
+    }
+
+    .about-me {
+        box-shadow: none;
+        padding: 0px 40px;
+    }
+
+    body h2 {
+        text-align: center;
+    }
+
+    .links {
+        justify-content: center;
+    }
+
+    .footer-links {
+        justify-content: center;
+    }
 }
