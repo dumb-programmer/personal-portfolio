@@ -26,12 +26,12 @@ header::before {
 }
 
 .info-container {
+    margin-top: 45px;
     display: flex;
     align-items: center;
 }
 
 .flex-container {
-    margin-top: 45px;
     display: flex;
     justify-content: center;
 }
@@ -43,6 +43,10 @@ header::before {
     padding-bottom: 20px;
     padding-right: 30px;
     max-width: 500px;
+}
+
+.tablet-photo {
+    display: none;
 }
 
 .links {
@@ -63,6 +67,7 @@ header::before {
 
 main {
     padding: 80px 50px;
+    flex: 2;
 }
 
 .project-cards-container {
@@ -124,7 +129,7 @@ address {
     gap: 1rem;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     .info-container {
         flex-direction: column;
     }
@@ -144,5 +149,27 @@ address {
 
     .footer-links {
         justify-content: center;
+    }
+}
+
+@media (max-width: 1200px) and (min-width:601px) {
+    .main-photo {
+        display: none;
+    }
+
+    .flex-container {
+        margin-top: 7%;
+    }
+
+    .tablet-photo {
+        display: block;
+        float: left;
+        margin-top: -80px;
+        margin-left: -50px;
+        padding-right: 15px;
+    }
+
+    .links {
+        display: none;
     }
 }
