@@ -23,16 +23,22 @@ header {
     position: relative;
 }
 
-header::before {
-    position: absolute;
-    min-width: 100%;
+.slanted-background {
     z-index: -1;
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.1));
+}
+
+.slanted-background::before {
     content: "";
+    min-height: 100%;
+    min-width: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0 100%);
+    position: absolute;
     display: block;
     background-color: var(--primary-clr);
-    min-height: 75vh;
-    transform: skewY(-10deg) translateY(-25vh);
-    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
 }
 
 .info-container {
