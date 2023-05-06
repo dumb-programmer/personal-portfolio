@@ -1,0 +1,47 @@
+Insigne EULA License Version 2.3.2 Effective Aug 15, 2013
+
+The Font-Software and any updates, upgrades, additions or modified versions are the intellectual property of Jeremy Dooley (dba insigne). Insigne Font-Software is protected under domestic (USA) and international copyright law. Licensee (you or your employer) is licensed to use the software on one computer, unless additional licenses are purchased for additional computers or a multi-license agreement is reached. Only for the purpose of outputting design work may Licensee create a copy of the Font-Software. Insigne Font-Software may not be made available to unlicensed third parties for any other purpose, unless additional licensees for computers are purchased. Examples include, but are not limited to making the Font-Software available for public download on the internet, emailing the Font-Software to others or distributing Font-Software on storage mediums or any other future file distribution method. Licensee is permitted to create backup copies of the Font-Software. Licensee must ensure copies are stored securely and are not accessible to non-licensed users.
+
+Examples include, but are not limited to:
+
+Licensee may:
+Copy the files to CD, e-mail or post them to a secured FTP server for the sole purpose of outputting design work.
+
+Licensee may not:
+Send the files to friends.
+Send the files to colleagues.
+Post the files to internet download sites.
+Share them via peer to peer programs.
+
+Licensee may use the licensed Font-Software to create images on any physical or tangible medium. A special license is required when insigne Font-Software is used to create a product for resale where the Font-Software is the primary design element or if the licensed Font-Software is embedded into software or hardware products or 3d printed products. Please contact jdooley@insignedesign.com for pricing or with questions about your use. 
+
+Standard License uses include, but are not limited to:
+Logotypes
+Corporate identity packages
+Website Graphics
+Static, non editable graphics embedded in computer applications such as splash screens
+Annual Reports
+Promotional materials
+Posters
+T-shirts
+Buttons
+Motion Graphics
+
+Special License uses include, but are not limited to:
+e-Books for resale
+Stencil Products
+Stock Art
+Sticker Products
+Embedding in a software product in a non-static manner. Examples include game HUDs, user interfaces.
+Mobile Device Applications
+iPad applications
+3d printed objects where the font is customizable or the object is substantially comprised of the the font-software.
+
+Use on Internet web pages:
+Unsecured @font-face embedding of the raw and unsecured files is specifically not allowed by this license. Licenses to use the font-software on an internet website must be purchased separately from this print only agreement. insigne font files cannot be embedded in flash files or used with cufon without a web license purchase. Please contact jdooley@insignedesign.com to arrange a quote or for additional information.
+
+Only for the purpose of outputting design work may the Licensee create a copy of the Font-Software Licensee has used in design work to a commercial printer or other service bureau. Upon outputting the file, the Font-Software should be deleted by the service bureau or the service bureau must purchase licenses for continued use.
+
+Licensee must not transfer or assign the Font-Software to a third party without written permission. The Font-Software may be modified after permission is granted by an in-house team or a third party for in-house use as long as there are an identical number of licenses granted as there are copies of the modified font. The modified Font-Software may not be sold or distributed. Insigne Font-Software cannot be resold, rented, leased or redistributed in any form, digital or physical, without written permission.
+
+Insigne is not responsible for any problems that may arise from the use of the Font-Software, such as computer malfunctions, idle time, shortfall of production, waste of material and any other direct, indirect, incidental or consequential damages that are caused by our Font-Software. In the event of a problem that the Font-Software does not work, insigne would only provide a replacement or refund for the Font-Software Licensee ordered. Upon termination of this Font-Software License Agreement, Licensee agrees to either return or to destroy and refrain from using the Font-Software, the media, copies and/or any modified or merged portions thereof.
