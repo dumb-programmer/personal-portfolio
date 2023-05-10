@@ -23,6 +23,10 @@ header {
     position: relative;
 }
 
+img {
+    max-width: 100%;
+}
+
 .slanted-background {
     z-index: -1;
     position: absolute;
@@ -146,6 +150,10 @@ address {
 }
 
 @media (max-width: 600px) {
+    .slanted-background::before {
+        clip-path: polygon(0 0, 100% 0, 100% 30%, 0 55%);
+    }
+
     main {
         padding: 80px 30px;
     }
